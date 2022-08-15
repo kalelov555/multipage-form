@@ -1,15 +1,15 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore/lite";
+import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBbwnBKQCPcAXZRTHv4DumqLYBLxzmOtZ0",
-  authDomain: "multipage-form-second.firebaseapp.com",
-  projectId: "multipage-form-second",
-  storageBucket: "multipage-form-second.appspot.com",
-  messagingSenderId: "456952398472",
-  appId: "1:456952398472:web:fe3cccef9965f87205153d",
+  apiKey: "AIzaSyD53w2JX_qEnZ4WEaxe52_bAN6gBw6i2Cg",
+  authDomain: "multiple-forms-9b5df.firebaseapp.com",
+  projectId: "multiple-forms-9b5df",
+  storageBucket: "multiple-forms-9b5df.appspot.com",
+  messagingSenderId: "744422153126",
+  appId: "1:744422153126:web:072a1e877afbfd7e510d67",
 };
 
 // Initialize Firebase

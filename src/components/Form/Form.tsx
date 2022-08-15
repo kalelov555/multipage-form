@@ -84,10 +84,10 @@ export const Form = () => {
     getFormDatas();
   }, []);
 
-  const handleSubmitForm = async () => {
+  const handleSubmitForm = () => {
     if (formErrors.email === "" && formErrors.birthDate === "") {
       alert("form submitted");
-      await addDoc(responsesCollectionRef, formData);
+      addDoc(responsesCollectionRef, formData);
       setFormData({
         firstName: "",
         lastName: "",

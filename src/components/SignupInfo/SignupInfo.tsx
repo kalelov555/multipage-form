@@ -42,6 +42,14 @@ export const SignupInfo = ({ formData, onInputChange, formErrors }: Props) => {
             <p className='input-item'>
               <label>Date of birth</label>
               <input
+                style={
+                  formErrors.birthDate
+                    ? {
+                        backgroundColor: "#EC8E8E",
+                        border: "1px solid red",
+                      }
+                    : undefined
+                }
                 type='date'
                 name='birthDate'
                 value={formData.birthDate}
@@ -53,6 +61,14 @@ export const SignupInfo = ({ formData, onInputChange, formErrors }: Props) => {
             <p className='input-item'>
               <label>Email Address</label>
               <input
+                style={
+                  formErrors.email
+                    ? {
+                        backgroundColor: "#EC8E8E",
+                        border: "1px solid red",
+                      }
+                    : undefined
+                }
                 type='email'
                 name='email'
                 value={formData.email}
