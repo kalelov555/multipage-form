@@ -1,0 +1,26 @@
+.checkbox-form {
+  padding: 0 0 3%;
+}
+
+.checkbox-form .genders-container {
+  display: flex;
+}
+
+.checkbox-form .genders-container .input-item {
+  width: 25%;
+  height: 10%;
+}
+
+.checkbox-form .genders-container .input-item img {
+  background-color: #ececea;
+  border: 1px solid #c7c7c7;
+  border-radius: 10px;
+}
+
+.checkbox-form .genders-container .input-item input {
+  opacity: 0;
+}
+
+.checkbox-form .input-item {
+  margin-top: 10px;
+}
